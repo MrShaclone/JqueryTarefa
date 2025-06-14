@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #444;
+    color: #f0f0f0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #222;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cabecalho ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+}
+
+.cabecalho li {
+    padding: 0.6rem 1.2rem;
+    background-color: #333;
+    color: #f0f0f0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cabecalho li:hover {
+    background-color: #1abc9c;
+}
+
+#container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #555;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#conteudo {
+    min-height: 200px;
+    padding: 1rem;
+    border: 2px dashed #888;
+    border-radius: 8px;
+    background-color: #666;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    margin: 0.5rem;
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+#foto {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    padding: 0.6rem;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+#listaPosts p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    background: #777;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
