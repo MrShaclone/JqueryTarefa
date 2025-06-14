@@ -10,7 +10,7 @@ $(document).ready(function () {
 <p id="mensagem">Texto original</p>`;
         mudarConteudo(conteudo);
         $('#botaoTexto').click(function (){
-            $('#mensagem').text('Texto alterado com jQuery!');
+            $('#mensagem').text('Texto foi alterado! Maneiro');
         })
     });
 
@@ -29,10 +29,10 @@ $(document).ready(function () {
     });
 
         $('#3').click(function () {
-        const conteudo = `<p id="textoHover">Passe o mouse aqui</p>`;
+        const conteudo = `<p id="textoHover">Passe o mouse nesse texto</p>`;
         mudarConteudo(conteudo);
         $('#textoHover').mouseenter(function (){
-            $('#textoHover').css('color', 'red');
+            $('#textoHover').css('color', 'blue');
         })
         $('#textoHover').mouseleave(function () { 
             $('#textoHover').css('color', 'black');
